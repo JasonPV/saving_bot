@@ -8,3 +8,4 @@
 4) path - путь до объекта
 
 Пример работы:
+![Screenshot](example.png)
