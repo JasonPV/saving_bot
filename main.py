@@ -46,7 +46,7 @@ async def handle_docs_photo(msg):
         methods.add_in_db(user_id, chat_id, type, path)
         await bot.send_message(msg.chat.id, f"На данной картинке есть лица: {faces}\nПоэтому это изображение сохранено")
     else:
-        await bot.send_message(msg.chat.id, "На данной картинке нет лиц, поэтому оно не сохранено")
+        await bot.send_message(msg.chat.id, "На данной картинке нет лиц, поэтому она не сохранена")
 
 
 @dp.message_handler(content_types=['audio'])
