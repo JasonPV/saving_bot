@@ -1,0 +1,7 @@
+cnf.py
+data.pickle
+saved_media.db
+venv/
+images/
+audios/
+__pycache__/
